@@ -18,6 +18,8 @@ module "webserver" {
 
   app_port  = 5000
   image_tag = "latest"
+  instance_type = "t3.micro"
+
 }
 
 
